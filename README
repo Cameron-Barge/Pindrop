@@ -1,0 +1,10 @@
+
+Running this code
+===================
+
+pip install -r requirements.txt
+python app.py
+
+In browser open: http://localhost:5000/interview/api/v1.0/results to get JSON for all results and http://localhost:5000/interview/api/v1.0/resultsForArea/<area_code> to get results for an area code.
+
+You can limit the results with http://localhost:5000/interview/api/v1.0/results/<limit> and http://localhost:5000/interview/api/v1.0/resultsForArea/<area_code>/<limit>
